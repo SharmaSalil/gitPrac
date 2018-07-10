@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG]">
+  <test name="TestCoreCase1(failed)">
+    <classes>
+      <class name="Execution.Login">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- Execution.Login -->
+      <class name="Execution.ForgotPassword">
+        <methods>
+          <include name="verifyResetpasswordIsWorking"/>
+          <include name="beforeTest"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- Execution.ForgotPassword -->
+      <class name="Execution.HomePage">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Execution.HomePage -->
+    </classes>
+  </test> <!-- TestCoreCase1(failed) -->
+</suite> <!-- Failed suite [TestNG] -->
